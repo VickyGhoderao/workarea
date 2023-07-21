@@ -1,11 +1,11 @@
 #include <stdio.h>
-
+void add(int a,int b);
 int main()
 {
-    add();
+    add(5,6);
 }
-void add(){
-    int a=20;
-    int b=30;
+void add(int a,int b){
+   
     printf("%d",a+b);
+    
 }
